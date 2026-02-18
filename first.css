@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f2f2f2;
+}
+
+h1 {
+    color:pink;
+}
+
+p {
+    font-size: 18px;
+}
+#countable{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial;
+}
+#container{
+    text-align: center;
+    
+    
+}
+.buttons{
+    padding: 10px,40px;
+    font-size: 1.5em;
+    border-radius: 45px;
+    cursor: pointer;
+    transition:background-color 0.25s;
+    border:rgb(21, 15, 15);
+    background-color: rgb(124, 169, 214)
+     
+     
+}
+.buttons:hover{
+    background-color: rgb(35, 106, 177);
+}
+#mybutton{
+    background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 10px;
+padding-left: 20px;
+}
+#mybutton:active::after {
+  left: 0;
+}
+.mylable{
+    font-size: 3em;
+}
